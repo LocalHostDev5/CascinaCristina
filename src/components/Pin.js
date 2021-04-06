@@ -1,6 +1,6 @@
 import React from "react";
 
-class Pin extends React.Component {
+export class Pin extends React.Component {
   render() {
     return (
       <div>
