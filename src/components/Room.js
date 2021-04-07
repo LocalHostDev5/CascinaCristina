@@ -1,5 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
+import PropTypes from 'prop-types';
+
 import Pin from './Pin';
 
 export default class Room extends React.Component {
@@ -23,7 +25,7 @@ export default class Room extends React.Component {
   render() {
     return (
       <div>
-        <Pin onClick={this.openModal.bind(this)} src={this.props.src} alt={this.props.alt}>
+        <Pin alt={this.props.alt} onClick={this.openModal.bind(this)} src={this.props.src}>
           {this.props.name}
         </Pin>
         <Modal isOpen={this.state.modalIsOpen}>
@@ -33,4 +35,10 @@ export default class Room extends React.Component {
       </div>
     );
   }
+}
+
+Room.propTypes = {
+  alt: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired
 }
