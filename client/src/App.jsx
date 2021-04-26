@@ -3,6 +3,8 @@ import { Container, Row, Navbar } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import './App.css';
+
 import Map from './components/Map';
 
 export default class App extends React.Component {
@@ -11,7 +13,7 @@ export default class App extends React.Component {
       <Container fluid>
         <Row>
           <Container fluid>
-            <Navbar bg="light">
+            <Navbar>
               <Navbar.Brand>Cascina Cristina</Navbar.Brand>
             </Navbar>
           </Container>
