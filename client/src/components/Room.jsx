@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 
+import './Room.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Room extends React.Component {
@@ -24,7 +26,8 @@ export default class Room extends React.Component {
   render() {
     return (
       <div>
-        <Button variant="primary" onClick={this.handleShow.bind(this)}>
+        <Button className="room"
+          variant="primary" onClick={this.handleShow.bind(this)}>
           {this.props.title}
         </Button>
 

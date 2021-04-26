@@ -31,12 +31,15 @@ export default class Map extends React.Component {
     return (
       <Container fluid>
 
-        <Container fluid className="container text-center">
+        <Container fluid className="map text-center">
           <Image src={this.state.img} />
-          <Button className="btn">Button</Button>
+          <Room title="Stanza1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
+          </Room>
         </Container>
 
-        <Button className="fixed-bottom">Coglione</Button>
+        <Button>1</Button>
+        <Button>2</Button>
       </Container>
     );
   }
