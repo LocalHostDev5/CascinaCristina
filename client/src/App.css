@@ -1,7 +1,27 @@
+@import './colors.css';
+
+body {
+  background-color: var(--bc);
+}
+
 .navbar {
-  background-color: lightblue;
+  background-color: var(--mc);
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
   margin-top: 1em;
 }
+
+.navbar .navbar-brand {
+  font-size: xx-large;
+  vertical-align: middle;
+  color: var(--tc);
+  padding: 1px .5em;
+  /*padding-left: .5em;*/
+}
+
+.navbar .navbar-brand:hover {
+  font-size: xx-large;
+  color: var(--tc);
+}
+

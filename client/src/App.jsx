@@ -14,7 +14,7 @@ export default class App extends React.Component {
         <Row>
           <Container fluid>
             <Navbar>
-              <Navbar.Brand>Cascina Cristina</Navbar.Brand>
+              <Navbar.Brand>CASCINA CRISTINA</Navbar.Brand>
             </Navbar>
           </Container>
         </Row>

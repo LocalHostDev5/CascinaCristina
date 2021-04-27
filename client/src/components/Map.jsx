@@ -1,31 +1,23 @@
 import React from 'react';
-import { Container, Row, Col, Image, ButtonGroup, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image, ToggleButtonGroup, ToggleButton } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Room from './Room';
 import './Map.css';
 
-import floor0 from '../img/floor_1.jpg';
-import floor1 from '../img/floor_2.jpg';
+import floor0 from '../img/floor_1_local.png';
+import floor1 from '../img/floor_2_local.png';
 
 export default class Map extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { img: floor0, floor: 0 }
+    this.state = { img: floor0 }
   }
 
-  downStairs() {
+  changeFloor(value) {
     this.setState({
-      img: floor0,
-      floor: 0
-    });
-  }
-
-  upStairs() {
-    this.setState({
-      img: floor1,
-      floor: 1
+      img: (value === 0 ? floor0 : floor1),
     });
   }
 
@@ -34,10 +26,10 @@ export default class Map extends React.Component {
       <Container fluid>
 
         <Container fluid className="map text-center">
-          <Image src={this.state.img} />
+          <Image id="test" src={this.state.img} />
 
           {
-            this.state.floor === 0 ?
+            this.state.img === floor0 ?
               <div>
                 <Room title="Stanza1">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
@@ -53,12 +45,15 @@ export default class Map extends React.Component {
         </Container>
 
         <div className="stairs">
-          <Button onClick={this.downStairs.bind(this)}>
-            1° Piano
-          </Button>
-          <Button onClick={this.upStairs.bind(this)}>
-            2° Piano
-          </Button>
+          <ToggleButtonGroup type="radio" name="floor"
+            defaultValue={0} onChange={this.changeFloor.bind(this)}>
+            <ToggleButton value={0}>
+              1° Piano
+            </ToggleButton>
+            <ToggleButton value={1}>
+              2° Piano
+            </ToggleButton>
+          </ToggleButtonGroup>
         </div>
       </Container>
     );
