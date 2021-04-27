@@ -31,13 +31,13 @@ export default class Map extends React.Component {
           {
             this.state.img === floor0 ?
               <div>
-                <Room title="Stanza1">
+                <Room icon="shower" title="Doccia">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
                 </Room>
               </div>
               :
               <div>
-                <Room title="Stanza2">
+                <Room icon="extension" title="Ricreativa">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
                 </Room>
               </div>

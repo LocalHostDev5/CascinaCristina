@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 
 import './Room.css';
+import '../index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,10 +27,15 @@ export default class Room extends React.Component {
   render() {
     return (
       <div>
-        <Button className="room"
+        <div className="room"
           variant="primary" onClick={this.handleShow.bind(this)}>
+          <span class="material-icons-round">
+            {this.props.icon}
+          </span>
+          <br />
           {this.props.title}
-        </Button>
+        </div>
+
 
         <Modal show={this.state.show} onHide={this.handleClose.bind(this)}>
           <Modal.Header closeButton>
