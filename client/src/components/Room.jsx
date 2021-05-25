@@ -33,11 +33,9 @@ export default class Room extends React.Component {
             top: this.props.x,
             left: this.props.y
           }}>
-          <span class="material-icons-round">
+          <div class="material-icons-round">
             {this.props.icon}
-          </span>
-          <br />
-          {this.props.title}
+          </div>
         </div>
 
 
