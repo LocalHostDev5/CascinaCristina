@@ -28,7 +28,11 @@ export default class Room extends React.Component {
     return (
       <div>
         <div className="room"
-          variant="primary" onClick={this.handleShow.bind(this)}>
+          variant="primary" onClick={this.handleShow.bind(this)}
+          style={{
+            top: this.props.x,
+            left: this.props.y
+          }}>
           <span class="material-icons-round">
             {this.props.icon}
           </span>
