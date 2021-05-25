@@ -1,0 +1,14 @@
+/* Style the button and place it in the middle of the container/image */
+.map .room {
+  position: absolute;
+  /*top: 50%;
+  left: 50%;*/
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: var(--mc);
+}
+
+.map .room .material-icons-round {
+  font-size: 50px;
+}
