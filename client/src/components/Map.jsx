@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, ToggleButtonGroup, ToggleButton } from 'react-bootstrap';
+import { Container, Image, ToggleButtonGroup, ToggleButton } from 'react-bootstrap';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -40,17 +40,17 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Sala archivio" x="55px" y="190px">
+                        <Room icon="all_inbox" title="Sala archivio" x="55px" y="190px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Bagno e spogliatoio personale" x="43px" y="120px">
+                        <Room icon="clean_hands" title="Bagno e spogliatoio personale" x="43px" y="120px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Scale piano terra 1" x="105px" y="50px">
+                        <Room icon="stairs" title="Scale piano terra 1" x="105px" y="50px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
@@ -60,7 +60,7 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Sensory Room" x="290px" y="50px">
+                        <Room icon="auto_awesome" title="Sensory Room" x="290px" y="50px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
@@ -75,12 +75,12 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Bagno 1" x="535px" y="37px">
+                        <Room icon="clean_hands" title="Bagno 1" x="535px" y="37px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Dispensa e ripostiglio 1" x="535px" y="100px">
+                        <Room icon="dashboard" title="Dispensa e ripostiglio 1" x="535px" y="100px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
@@ -90,32 +90,32 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Serra didattica e bar" x="515px" y="365px">
+                        <Room icon="local_florist" title="Serra didattica e bar" x="515px" y="365px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Dispensa e ripostiglio 2" x="510px" y="535px">
+                        <Room icon="dashboard" title="Dispensa e ripostiglio 2" x="510px" y="535px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Bagno 2" x="510px" y="620px">
+                        <Room icon="clean_hands" title="Bagno 2" x="510px" y="620px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Sala attesa e relax" x="290px" y="535px">
+                        <Room icon="weekend" title="Sala attesa e relax" x="290px" y="535px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Scale piano terra 2" x="415px" y="620px">
+                        <Room icon="stairs" title="Scale piano terra 2" x="415px" y="620px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="restaurant" title="Sala da pranzo" x="270px" y="620px">
+                        <Room icon="flatware" title="Sala da pranzo" x="270px" y="620px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
@@ -125,7 +125,7 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Cucina" x="80px" y="620px">
+                        <Room icon="takeout_dining" title="Cucina" x="80px" y="620px">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores, sapiente consequuntur voluptates quisquam ipsam dolorem error commodi aliquam, est non quasi, aut reprehenderit porro officia odio! Necessitatibus, animi iusto.
 								</Room>
                       </div>
@@ -163,47 +163,47 @@ export default class Map extends React.Component {
 								</Room>
                       </div>
                       <div>
-                        <Room icon="extension" title="Sala riunioni" x="538px" y="200px">
+                        <Room icon="connect_without_contact" title="Sala riunioni" x="538px" y="200px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="bedroom_parent" title="Camera di Luca" x="510px" y="590px">
+                        <Room icon="hotel" title="Camera di Luca" x="510px" y="590px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
                       <div>
-                        <Room icon="bedroom_parent" title="Camera di Tommaso" x="510px" y="685px">
+                        <Room icon="hotel" title="Camera di Tommaso" x="510px" y="685px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="bedroom_parent" title="Camera di Andrea" x="325px" y="685px">
+                        <Room icon="hotel" title="Camera di Andrea" x="325px" y="685px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="bedroom_parent" title="Camera di Daniele" x="200px" y="685px">
+                        <Room icon="hotel" title="Camera di Daniele" x="200px" y="685px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="bedroom_parent" title="Camera di Martina" x="75px" y="685px">
+                        <Room icon="hotel" title="Camera di Martina" x="75px" y="685px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="bedroom_parent" title="Camera di Giovanni" x="75px" y="590px">
+                        <Room icon="hotel" title="Camera di Giovanni" x="75px" y="590px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="extension" title="Scale primo piano" x="417px" y="685px">
+                        <Room icon="stairs" title="Scale primo piano" x="417px" y="685px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
 					  <div>
-                        <Room icon="extension" title="Salone" x="300px" y="590px">
+                        <Room icon="chair" title="Salone" x="300px" y="590px">
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
