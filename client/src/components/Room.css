@@ -13,6 +13,13 @@
   font-size: 50px;
 }
 
+.modalBody img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 @media only screen and (max-width: 600px)  {
   .map .room .material-icons-round {
     font-size: 25px;

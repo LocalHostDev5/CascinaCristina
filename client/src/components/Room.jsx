@@ -55,11 +55,11 @@ export default class Room extends React.Component {
           </div>
         </div>
 
-        <Modal show={this.state.show} onHide={this.handleClose.bind(this)}>
+        <Modal show={this.state.show} onHide={this.handleClose.bind(this)} size="lg">
           <Modal.Header closeButton>
             <Modal.Title>{this.props.title}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>{this.props.children}</Modal.Body>
+          <Modal.Body><div className="modalBody">{this.props.children}</div></Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={this.handleClose.bind(this)}>
               Close
