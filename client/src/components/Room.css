@@ -12,3 +12,9 @@
 .map .room .material-icons-round {
   font-size: 50px;
 }
+
+@media only screen and (max-width: 600px)  {
+  .map .room .material-icons-round {
+    font-size: 25px;
+  }
+}

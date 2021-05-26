@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default class Room extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { show: false };
+    this.state = { show: false, isDesktop: (window.innerWidth > 600) };
   }
 
   handleShow() {
@@ -24,15 +24,32 @@ export default class Room extends React.Component {
     });
   }
 
+  handleResize() {
+    this.setState({
+      isDesktop: (window.innerWidth > 600)
+    });
+  };
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.addEventListener("resize", this.handleResize.bind(this));
+  }
+
   render() {
     return (
       <div>
         <div className="room"
           variant="primary" onClick={this.handleShow.bind(this)}
-          style={{
-            top: this.props.x,
-            left: this.props.y
-          }}>
+          style={(this.state.isDesktop ? {
+            top: this.props.x + 'px',
+            left: this.props.y + 'px'
+          } : {
+            top: this.props.x / 2 + 'px',
+            left: this.props.y / 2 + 'px'
+          })}>
           <div class="material-icons-round">
             {this.props.icon}
           </div>

@@ -1,9 +1,7 @@
 @import '../index.css';
 
 .map {
-  margin-top: 5em;
-  position: relative;
-  /*border: solid 1px black; /* DELETE */
+  margin: 2.5em;
 }
 
 .map img {
@@ -12,9 +10,6 @@
 }
 
 .stairs {
-  float: right;
-  margin-top: 1em;
-  margin-right: 20em;
   padding: 0.25em;
   background-color: var(--tc);
   border-radius: 50px;
@@ -30,4 +25,11 @@
 
 .stairs .btn-primary:not(:disabled):not(.disabled).active {
   background-color: var(--hc);
+}
+
+@media only screen and (max-width: 600px)  {
+  .map img {
+    height: 288px;
+    width: 371px;
+  }
 }
