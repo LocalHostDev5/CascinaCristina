@@ -177,6 +177,36 @@ export default class Map extends React.Component {
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
 								</Room>
                       </div>
+					  <div>
+                        <Room icon="bedroom_parent" title="Camera di Andrea" x="325px" y="685px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
+					  <div>
+                        <Room icon="bedroom_parent" title="Camera di Daniele" x="200px" y="685px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
+					  <div>
+                        <Room icon="bedroom_parent" title="Camera di Martina" x="75px" y="685px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
+					  <div>
+                        <Room icon="bedroom_parent" title="Camera di Giovanni" x="75px" y="590px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
+					  <div>
+                        <Room icon="extension" title="Scale primo piano" x="417px" y="685px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
+					  <div>
+                        <Room icon="extension" title="Salone" x="300px" y="590px">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eum odio quos. Facilis, labore voluptatem fuga eum aperiam iste, quae aliquam aut sit itaque accusantium ab laudantium repudiandae esse nihil.
+								</Room>
+                      </div>
                     </div>
                 }
               </React.Fragment>
