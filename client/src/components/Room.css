@@ -1,0 +1,27 @@
+/* Style the button and place it in the middle of the container/image */
+.map .room {
+  position: absolute;
+  /*top: 50%;
+  left: 50%;*/
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: var(--mc);
+}
+
+.map .room .material-icons-round {
+  font-size: 50px;
+}
+
+.modalBody img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+@media only screen and (max-width: 600px)  {
+  .map .room .material-icons-round {
+    font-size: 25px;
+  }
+}
